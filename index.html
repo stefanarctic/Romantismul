@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Romantismul</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Logo.png" type="image/png">
+</head>
+<body>
+    <h1>Romantismul</h1>
+    <button id="menuToggle"><img src="open-book-Photoroom.png" style="width:30px"></button>
+  <div class="overlay-menu" id="overlayMenu">
+    <div class="overlay-content">
+      <h2>Bibliografie</h2>
+<ul>
+  <li>Mihai Eminescu - <i>Poezii</i>, ediție critică de Perpessicius</li>
+  <li>George Călinescu - <i>Viața lui Mihai Eminescu</i></li>
+  <li>Tudor Vianu - <i>Estetica</i></li>
+  <li>Arthur Schopenhauer - <i>Lumea ca voință și reprezentare</i></li>
+  <li>Mircea Eliade - <i>Istoria ideilor și credințelor religioase</i></li>
+  <li>Dumitru Irimia - <i>Structura liricii eminesciene</i></li>
+  <li>Edgar Papu - <i>Romantismul românesc</i></li>
+</ul>
+
+<h2>Citate finale (memorabile)</h2>
+<p>În încheiere, redăm câteva citate memorabile care reflectă profunzimea tematică și stilistică a romantismului și a operei eminesciene,</p> 
+  <li>„Trăind în cercul vostru strâmt / Norocul vă petrece, / Ci eu în lumea mea mă simt / Nemuritor și rece.” (Eminescu - „Luceafărul”)</li>
+  <li>„Cunoașterea suferă acolo unde voința domină.” (Arthur Schopenhauer)</li>
+  <li>„Nu te uita la mine ca la un om, ci ca la o stea ce arde singură în cer.” (idee-simbol a Hyperionului)</li>
+  <li>„Floarea albastră, floare albastră…” - simbol al dorului după absolut, dar și al imposibilității atingerii lui.</li>
+</ul>
+
+<h2>Surse online utile pentru aprofundare</h2>
+<p>Pentru cei care doresc să exploreze în profunzime temele discutate, redăm mai jos câteva resurse online accesibile și bine documentate:</p>
+<ol>
+  <li><a href="https://i-scoala.ro/comentariu-literar-luceafarul-de-mihai-eminescu" target="_blank">Comentariu literar al „Luceafărului”</a></li>
+  <li><a href="https://www.consiliereafilosofica.ro/arthur-schopenhauer" target="_blank">Articol despre influențele lui Schopenhauer asupra operei lui Eminescu</a></li>
+  <li><a href="https://www.youtube.com/watch?v=cjYymXv-Xko" target="_blank">Prezentare video detaliată a poemului „Luceafărul”</a></li>
+  <li><a href="https://curierulnational.ro/influente-germanice-in-literatura-romana" target="_blank">Articol despre influențele germanice asupra literaturii române</a></li>
+  <li><a href="https://de.wikipedia.org/wiki/Mihai_Eminescu" target="_blank">Biografie și influențe culturale ale lui Mihai Eminescu</a></li>
+</ol>
+    </div>
+  </div>
+  <button id="menuToggleleft"><img src="gallery-Photoroom.png" style="width:30px"></button>
+  <div class="overlayleftmenu" id="overlayleftMenu">
+    <div class="overlay-content-left">
+      <h2>Galerie Foto</h2>
+      <p><img src="res/eminescu.jpeg" class="imagine1"></p>
+      <p>Mihai Eminescu</p>
+      <p><img src="res/Romantism.jpg" class="imagine1"></p>
+      <p>Caspar David Friedrich
+        Der Wanderer über dem Nebelmeer, 1818
+        (Hoinarul deasupra mării de ceață)</p>
+        <p><img src="res/Romantism1.jpg" class="imagine1"></p>
+      <p>Libertatea conducând poporul, Eugène Delacroix</p>
+      <p><img src="res/baudeliare.jpeg" class="imagine1"></p>
+      <p>Charles Baudelaire</p>
+      <p><img src="res/Schopenhauer.jpeg" class="imagine1"></p>
+      <p>Arthur Schopenhauer</p>
+      <p><img src="res/Stendhal.jpg" class="imagine1"></p>
+      <p>Stendhal</p>
+      <p><img src="res/hugo.jpeg" class="imagine1"></p>
+      <p>Victor Hugo</p>
+      <p><img src="res/Byron.jpg" class="imagine1"></p>
+      <p>Georges Gordon Byron</p>
+    </div>
+  </div>
+  <div class="button-container">
+    <button onclick="showContent('definitie')">Definiție Romantism</button>
+    <button onclick="showContent('trasaturi')">Trăsături și Caracteristici</button>
+    <button onclick="showContent('francezi')">Reprezentanți</button>
+    <button onclick="showContent('hugo')">Victor Hugo</button>
+    <button onclick="showContent('stendhal')">Stedhal</button>
+    <button onclick="showContent('baudelaire')">Baudelaire</button>
+    <button onclick="showContent('demon')">Demonul lui Lermontov</button>
+    <button onclick="showContent('florile')">Motivul „Florile albastre”</button>
+    <button onclick="showContent('floareAlbastra')">Floare albastră - Relația cu poezia</button>
+    <button onclick="showContent('luceafar')">Motivul Lucifer / Luceafăr</button>
+    <button onclick="showContent('vanitas')">Vanitas Vanitatum</button>
+    <button onclick="showContent('visTeatru')">Viața ca vis și teatru</button>
+    <button onclick="showContent('indiana')">Luceafărul și literatura indiană</button>
+    <button onclick="showContent('gradina')">Inspirație: „Fata în grădina de aur”</button>
+    <button onclick="showContent('arthur')">Arthur Schopenhauer</button>
+    <button onclick="showContent('schopenhauer')">Filosofia lui Schopenhauer în Luceafărul</button>
+    <button onclick="showContent('geniu')">Condiția omului de geniu</button>
+    <button onclick="showContent('concluzii')">Concluzii</button>
+  </div>
+
+  <div class="content-box" id="contentBox">
+    <h2 id="contentTitle"></h2>
+    <p id="contentText"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
