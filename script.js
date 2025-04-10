@@ -108,6 +108,7 @@ function showContent(key) {
   document.getElementById("contentTitle").textContent = contents[key].title;
   document.getElementById("contentText").textContent = contents[key].text;
   box.style.display = "block";
+  document.body.style.height = "100%";
   window.scrollTo({
     top: box.offsetTop - 20,
     behavior: "smooth"
